@@ -1,0 +1,182 @@
+nav{
+     display: flex;
+     top: 0;
+     left: 0;
+}
+nav img{
+    width: 200px;
+    margin-left: 150px;
+}
+nav ul{
+    display:flex;
+    margin-left: 400px;
+    margin-top: 15px;
+
+}
+nav ul li{
+    margin: 15px;
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ababab;
+    
+}
+
+.about{
+    color: #00b39b;
+}
+nav ul li a:hover{
+    color: #00b39b;
+}
+
+main{
+    top: 0;
+    margin-top: 10px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.image img{
+    height: 70px;
+}
+.title{
+    color: #00b39b;
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: .3px;
+}
+.paragraph{
+display: flex;
+justify-content:center;
+align-items:center;
+
+}
+.paragraph div{
+    margin: 15px;
+    width: 450px;
+}
+.bloc{
+    display: flex;
+    justify-content: center;
+}
+.bloc div{
+    border-radius: 15px;
+}
+.bloc22{
+    margin: 10px;
+    width: 300px;
+
+}
+.bloc22 p {
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+
+}
+.bloc22 img{
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+.bloc22 h3{
+    color: white;
+    margin-left: 20px;
+    font-size: 40px;
+}
+.bloc1{
+    background-color: #00b39b; 
+}
+.bloc2{
+    background-color: #3d83df;
+    
+}.bloc3{
+    background-color: #1b2734;
+    
+}
+.selection select {
+    background-color: transparent !important;
+    border: none;
+    text-decoration: underline;
+    color: white;
+
+
+}
+.selection select option{
+    columns: black !important;
+}
+
+.ref{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0;
+    list-style: none;
+    width: 67%;
+}
+.titre1{
+    color: #00b39b;
+    font-size: 40px;
+   margin: right 15px;
+    display: flex;
+}
+.section4{
+    height:600px;
+    width:100%;
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg, rgba(0, 204, 177, .01) 5%, rgba(61, 199, 223, .1));
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.section41{
+    width: 400px;
+}
+.section41 img{
+    height: 500px;
+    margin-top: 300px;
+    }
+.section42{
+    
+}
+.section421{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+.section421 div{
+    height: 300px; 
+    width: 250px;
+    background: white;
+    margin-left: 20px;
+    border-radius: 12px;
+}
+.sect1{
+    margin-top: 40px;
+
+}
+.sect2{
+    margin-top:20px ;
+}
+.bloc44 img{
+    margin-left: 80px;
+    margin-top: 30px;
+    height: 40px;
+}
+.bloc44 h1{
+    color: #00b39b;
+    text-align: center;
+}
+.bloc44 p{
+    text-align: center;
+    color: gray
+}
