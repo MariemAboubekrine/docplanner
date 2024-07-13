@@ -3,6 +3,12 @@ nav{
      top: 0;
      left: 0;
 }
+body {
+    font-family: "Work Sans",Arial,sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+   font-weight: 300;
+}
 nav img{
     width: 200px;
     margin-left: 150px;
@@ -113,22 +119,38 @@ align-items:center;
     columns: black !important;
 }
 
-.ref{
+.we {
+    width: 220px;
+ }
+ .we h1 {
+    font-size: 26px;
+    color: #00b39b;
+    letter-spacing: -.3px;
+    font-family: "Work Sans",Arial,sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+    
+    
+    
+ }
+
+.blocimage ul {
     display: flex;
     justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 0;
-    list-style: none;
-    width: 67%;
+
+    
 }
-.titre1{
+.blocimage div img {
+    height: auto;
+    width: 160px;
+    margin-left: 15px;
+ }
+div ul li a:hover {
     color: #00b39b;
-    font-size: 40px;
-   margin: right 15px;
-    display: flex;
 }
+
+
 .section4{
     height:600px;
     width:100%;
@@ -143,7 +165,7 @@ align-items:center;
 }
 .section41 img{
     height: 500px;
-    margin-top: 300px;
+   
     }
 .section42{
     
@@ -179,4 +201,8 @@ align-items:center;
 .bloc44 p{
     text-align: center;
     color: gray
+}
+.centre{
+    display: flex;
+    justify-content: center;
 }
